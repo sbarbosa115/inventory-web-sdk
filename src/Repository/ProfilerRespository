@@ -1,0 +1,7 @@
+import { Owner } from '../Entity/Owner';
+
+class ProfileRepository {
+    getProfile() {
+        return new Owner('Example User', 'exampleuser', 'user@example.com');
+    }
+}
