@@ -1,6 +1,6 @@
 {
   "name": "inventory-web-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "dependencies": {
     "typescript": "^3.9.7"
   },
