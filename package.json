@@ -1,5 +1,12 @@
 {
+  "name": "inventory-web-sdk",
+  "version": "1.0.0",
   "dependencies": {
     "typescript": "^3.9.7"
-  }
+  },
+  "description": "SDK to interact with all Inventory backend SDK.",
+  "main": "index.js",
+  "repository": "https://github.com/sbarbosa115/inventory-web-sdk.git",
+  "author": "Sergio Barbosa <sbarbosa115@gmail.com>",
+  "license": "MIT"
 }
