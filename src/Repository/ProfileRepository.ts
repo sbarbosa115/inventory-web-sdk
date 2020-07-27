@@ -1,7 +1,9 @@
-import { Owner } from '../Entity/Owner';
+import { ClientInterface } from '../Entity/ClientInterface';
 
-export class ProfileRepository {
-    getProfile() {
-        return new Owner('Example User', 'exampleuser', 'user@example.com');
-    }
+export const ProfileRepository = {
+    getUserProfile(): ClientInterface  {
+        // Check the client LocalStorage and check if user profile exist if not perform call to the backend.
+        console.log('content from get ProfileRepository.getUserProfile()')
+        return ;
+    },
 }

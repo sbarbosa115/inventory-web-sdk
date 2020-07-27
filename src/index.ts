@@ -1,1 +1,7 @@
-export const Greeter = (name: string) => `Hello ${name}`;
+import {ProfileServiceInterface} from "./Services/Interfaces/ProfileServiceInterface";
+
+const InventoryWebSdk  = {
+    getProfileService(): ProfileServiceInterface  {
+        return;
+    }
+};

@@ -9,7 +9,9 @@
   "license": "MIT",
   "devDependencies": {
     "ts-loader": "^8.0.1",
-    "typescript": "^3.9.7"
+    "typescript": "^3.9.7",
+    "dotenv": "^8.2.0",
+    "tslint": "^6.1.2"
   },
   "files": [
     "public/dist/**/*"
