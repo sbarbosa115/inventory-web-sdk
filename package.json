@@ -1,6 +1,6 @@
 {
   "name": "inventory-web-sdk",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "SDK to interact with all Inventory backend SDK.",
   "main": "public/dist/index.js",
   "types": "public/dist/index.d.js",
@@ -8,10 +8,10 @@
   "author": "Sergio Barbosa <sbarbosa115@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "ts-loader": "^8.0.1",
-    "typescript": "^3.9.7",
     "dotenv": "^8.2.0",
-    "tslint": "^6.1.2"
+    "ts-loader": "^8.0.1",
+    "tslint": "^6.1.2",
+    "typescript": "^3.9.7"
   },
   "files": [
     "public/dist/**/*"
