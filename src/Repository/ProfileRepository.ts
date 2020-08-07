@@ -1,9 +1,10 @@
-import { ClientInterface } from '../Entity/ClientInterface';
+import fetch from 'node-fetch';
+import {ENVIRONMENT_URL} from "../Config/Dotenv";
+import {ProfileEntity} from "../Entity/ProfileEntity";
 
 export const ProfileRepository = {
-    getUserProfile(): ClientInterface  {
-        // Check the client LocalStorage and check if user profile exist if not perform call to the backend.
-        console.log('content from get ProfileRepository.getUserProfile()')
-        return ;
+    async getUserProfile() : Promise<ProfileEntity> {
+        return await fetch(ENVIRONMENT_URL)
+            .then(response => response.json()) as ProfileEntity;
     },
 }
