@@ -8,7 +8,8 @@
   "author": "Sergio Barbosa <sbarbosa115@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@types/jest": "^26.0.8",
+    "@types/dotenv": "^8.2.0",
+    "@types/jest": "^26.0.10",
     "jest": "^26.2.2",
     "ts-jest": "^26.1.4",
     "ts-loader": "^8.0.1",
@@ -19,9 +20,7 @@
     "dist/**/*"
   ],
   "dependencies": {
-    "@types/dotenv": "^8.2.0",
-    "@types/node-fetch": "^2.5.7",
-    "dotenv": "^8.2.0",
-    "node-fetch": "^2.6.0"
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0"
   }
 }
