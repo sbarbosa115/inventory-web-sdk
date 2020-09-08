@@ -1,6 +1,6 @@
 {
   "name": "inventory-web-sdk",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "SDK to interact with all Inventory backend SDK.",
   "main": "public/dist/index.js",
   "types": "public/dist/index.d.js",
